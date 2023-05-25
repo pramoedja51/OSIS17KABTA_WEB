@@ -1,7 +1,7 @@
 <!-- terhubung ke file kode_sumber -->
-@extends('kode_sumber')
+@extends('MainCode')
 
-@section('konten')
+@section('Content')
 <!-- kode halaman -->
-<p>daftar</p>
+<p>index</p>
 @endsection

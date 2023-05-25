@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('halaman_utama/index');
+});
+Route::get('/masuk', function () {
+    return view('halaman_login/masuk');
+});
+Route::get('/daftar', function () {
+    return view('halaman_login/daftar');
 });

@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 ol, ul {
@@ -239,6 +241,864 @@ textarea {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+.MainHeader {
+  height: 690px;
+}
+.MainHeader .Pre-Login_Navigaion {
+  position: absolute;
+  z-index: 1;
+  font-family: "Poppins";
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 94vw;
+  text-transform: capitalize;
+  height: 120px;
+  padding-left: 110px;
+  align-content: space-between;
+  flex-wrap: nowrap;
+}
+.MainHeader .Pre-Login_Navigaion .logo {
+  display: flex;
+  height: 67px;
+  width: 260px;
+}
+.MainHeader .Pre-Login_Navigaion .logo .logoImage {
+  display: flex;
+  width: 4.9vw;
+  height: 58px;
+}
+.MainHeader .Pre-Login_Navigaion .logo .logoImage img {
+  width: 100%;
+}
+.MainHeader .Pre-Login_Navigaion .logo .lettermarks {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4px;
+}
+.MainHeader .Pre-Login_Navigaion .logo .lettermarks .sup {
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  font-size: 16.8px;
+  line-height: 15px;
+}
+.MainHeader .Pre-Login_Navigaion .logo .lettermarks .sub {
+  font-size: 14.6px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+  margin: 4px;
+  float: left;
+  position: relative;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink:hover > ul {
+  display: block;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink .NavLink_Link {
+  color: #4B4F58;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 13px;
+  text-decoration: none;
+  padding: 6px;
+  display: block;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink .NavLink_Link .dropdown {
+  display: inline;
+  font-size: 8px;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink .DropdownMenu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background: #fff;
+  width: 200px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 10px 1px #dbdbdb;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink .DropdownMenu li {
+  float: none;
+}
+.MainHeader .Pre-Login_Navigaion .MainLink .NavLink .DropdownMenu a {
+  line-height: 40px;
+}
+.MainHeader .header_content {
+  background: #fafafa;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.MainHeader .header_content .layer1 .background {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 138px;
+  width: 600px;
+  height: 480px;
+  background: linear-gradient(119.73deg, #12B3BE 10.46%, #2C4C9F 63.87%);
+  opacity: 0.7;
+  border-radius: 70px 0px 60px 70px;
+}
+.MainHeader .header_content .layer2 .circle1 {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: absolute;
+  top: -34px;
+  left: -75px;
+  background: #FAFAFA;
+  box-shadow: 2px 4px 60px rgba(0, 0, 0, 0.25);
+}
+.MainHeader .header_content .layer2 .circle2 {
+  display: flex;
+  width: 485px;
+  height: 485px;
+  border-radius: 100%;
+  position: absolute;
+  top: 285px;
+  right: 60px;
+  background: #FAFAFA;
+  box-shadow: 7.1px 7.1px 14.3px rgba(0, 0, 0, 0.25);
+}
+.MainHeader .header_content .layer2 .circle3 {
+  display: flex;
+  width: 103px;
+  height: 103px;
+  border-radius: 100%;
+  position: absolute;
+  top: 235px;
+  right: 548px;
+  background: #FAFAFA;
+  box-shadow: 4.8px 4.8px 12.9px rgba(0, 0, 0, 0.25);
+}
+.MainHeader .header_content .layer2 .circle4 {
+  display: flex;
+  width: 103px;
+  height: 103px;
+  border-radius: 100%;
+  position: absolute;
+  top: 235px;
+  right: -50px;
+  z-index: 0;
+  background: #FAFAFA;
+  box-shadow: 4.8px 4.8px 12.9px rgba(0, 0, 0, 0.25);
+}
+.MainHeader .header_content .layer3 .Ketos_Img {
+  width: 710px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.MainHeader .header_content .layer3 .Description {
+  width: 550px;
+  position: absolute;
+  top: 185px;
+  left: 130px;
+  font-family: "Poppins";
+}
+.MainHeader .header_content .layer3 .Description .welcome {
+  color: #000000;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+}
+.MainHeader .header_content .layer3 .Description .heading_text {
+  font-size: 54.5px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #000000;
+}
+.MainHeader .header_content .layer3 .Description .detail {
+  border-top: 5px solid #12B3BE;
+  padding-top: 18px;
+  margin-top: 22px;
+  width: 435px;
+}
+.MainHeader .header_content .layer3 .Description .detail .description {
+  font-size: 12.9px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #7a7a7a;
+}
+.MainHeader .header_content .layer3 .Description .detail .ReadMore {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: #FAFAFA;
+  box-shadow: 0px 0px 15.5px rgba(0, 0, 0, 0.25);
+}
+.MainHeader .header_content .SVG_HeaderBottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.OSIS_Information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  padding: 50px 0px;
+  font-family: "Poppins";
+}
+.OSIS_Information .Osis_InformationHeader {
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.OSIS_Information .Osis_InformationHeader .HeaderInformation {
+  font-size: 28px;
+  color: #1E2329;
+}
+.OSIS_Information .Osis_InformationHeader .DetailInformation {
+  text-align: center;
+  font-size: 13px;
+  color: #808080;
+}
+.OSIS_Information .Main_ContentInformation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 20px;
+}
+.OSIS_Information .Main_ContentInformation .ContentInformation1 {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+.OSIS_Information .Main_ContentInformation .ContentInformation2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.OSIS_Information .Main_ContentInformation .ContentInformation3 {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+.OSIS_Information .Main_ContentInformation .content {
+  margin: 15px;
+}
+.OSIS_Information .Main_ContentInformation .content .title {
+  font-size: 14px;
+  color: #1E2329;
+}
+.OSIS_Information .Main_ContentInformation .content .detail {
+  font-size: 11px;
+  color: #808080;
+}
+
+.wave_line {
+  width: 4vw;
+  padding: 5px 0px;
+}
+
+.SekbidInformation {
+  height: 850px;
+  width: 100%;
+  background: #12B3BE;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+}
+.SekbidInformation .halftone {
+  position: absolute;
+  height: 100%;
+  left: -214px;
+  opacity: 18%;
+}
+.SekbidInformation .SVG_SekbidTop {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  transform: rotate(180deg);
+}
+.SekbidInformation .SekbidHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  margin-top: 80px;
+}
+.SekbidInformation .SekbidHeader .header {
+  font-size: 30px;
+  color: white;
+}
+.SekbidInformation .SekbidHeader .detail {
+  font-size: 11px;
+  color: #fff;
+  font-style: italic;
+}
+.SekbidInformation .SekbidHeader .wave_line {
+  width: 4vw;
+}
+.SekbidInformation .SekbidContent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  position: absolute;
+  bottom: 60px;
+  justify-content: center;
+}
+.SekbidInformation .SekbidContent .sekbid {
+  width: 240px;
+  height: 130px;
+  background: #fff;
+  margin: 6px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 17px;
+  overflow: hidden;
+}
+.SekbidInformation .SekbidContent .sekbid .SekbidInfo {
+  position: relative;
+  overflow: hidden;
+}
+.SekbidInformation .SekbidContent .sekbid .SekbidInfo p {
+  position: absolute;
+  z-index: 1;
+  top: 110px;
+  left: 80px;
+}
+.SekbidInformation .SekbidContent .sekbid .SekbidInfo .Sekbid_img {
+  opacity: 30%;
+  width: 245px;
+}
+
+.ketos-message {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ketos-message .ketos {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: 360px;
+  align-items: center;
+}
+.ketos-message .ketos .Ketos_img {
+  width: 420px;
+}
+.ketos-message .ketos .description {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  font-family: "Poppins";
+}
+.ketos-message .ketos .description .title {
+  font-size: 26px;
+  font-weight: 600;
+}
+.ketos-message .ketos .description .wave_line {
+  width: 3vw;
+  padding: 15px 0;
+}
+.ketos-message .ketos .description .detail {
+  font-size: 14px;
+}
+.ketos-message .ketos .description .name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.ketos-message .ketos .description .period {
+  font-size: 10px;
+}
+.ketos-message .motivation {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 525px;
+  border-radius: 50% 50% 50% 50%/20% 20% 20% 20%;
+  background: #EDF9FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ketos-message .motivation .content {
+  position: relative;
+  display: flex;
+  width: 60%;
+}
+.ketos-message .motivation .content .description {
+  width: 35vw;
+}
+.ketos-message .motivation .content .description h3 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #12B3BE;
+}
+.ketos-message .motivation .content .description p {
+  font-size: 11px;
+  width: 35vw;
+}
+.ketos-message .motivation .content .box {
+  position: relative;
+  margin-left: 30px;
+}
+.ketos-message .motivation .content .box .box1 {
+  background: #fff;
+  height: 335px;
+  width: 270px;
+  position: absolute;
+  z-index: 2;
+  bottom: -100px;
+  border-radius: 5px;
+}
+.ketos-message .motivation .content .box .box2 {
+  background: #12B3BE;
+  height: 335px;
+  width: 270px;
+  position: absolute;
+  bottom: -115px;
+  right: -285px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.events {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+}
+.events .title h3 {
+  font-size: 32px;
+}
+.events .title p {
+  font-size: 14px;
+  font-style: italic;
+  color: #808080;
+}
+.events .wave_line {
+  width: 4vw;
+  margin: 30px 0 10px 0;
+}
+.events .events_list {
+  display: flex;
+  align-items: start;
+}
+.events .events_list .card {
+  width: 16rem;
+  margin: 10px;
+}
+.events .events_list .card .card-body {
+  text-align: center;
+}
+.events .events_list .card .card-body h3 {
+  font-size: 14px;
+}
+.events .events_list .card .card-body p {
+  font-size: 10px;
+  color: #808080;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 14px;
+  margin: 0;
+}
+.events .see-more {
+  font-size: 12px;
+  text-decoration: none;
+  color: #12B3BE;
+  height: 40px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15.5px rgba(0, 0, 0, 0.25);
+  margin: 20px 0;
+}
+.events .see-more i {
+  margin-left: 10px;
+}
+
+.ekskul {
+  height: 620px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddf4ff;
+}
+.ekskul .SVG_EkskulTop {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  transform: rotate(180deg);
+}
+.ekskul .img_osis .OSIS_bg {
+  width: 100%;
+  opacity: 15%;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+.ekskul .ekskul_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.ekskul .ekskul_content .description {
+  width: 28vw;
+  margin-right: 30px;
+}
+.ekskul .ekskul_content .description h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.ekskul .ekskul_content .description p {
+  font-size: 13px;
+}
+.ekskul .ekskul_content .ekskul_logo {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  gap: 10px 10px;
+  grid-template-areas: "icon-1 icon-2 icon-3" "icon-4 icon-5 icon-6" "icon-7 icon-8 icon-9";
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 65px;
+}
+.ekskul .ekskul_content .ekskul_logo .ekskul_icon {
+  margin: 10px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-1 {
+  grid-area: icon-1;
+  width: 135px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-2 {
+  grid-area: icon-2;
+  width: 110px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-3 {
+  grid-area: icon-3;
+  width: 130px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-4 {
+  grid-area: icon-4;
+  width: 135px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-5 {
+  grid-area: icon-5;
+  width: 115px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-6 {
+  grid-area: icon-6;
+  width: 165px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-7 {
+  grid-area: icon-7;
+  width: 135px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-8 {
+  grid-area: icon-8;
+  width: 115px;
+}
+.ekskul .ekskul_content .ekskul_logo .icon-9 {
+  grid-area: icon-9;
+  width: 135px;
+}
+
+.OSIS_Youtube {
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OSIS_Youtube .description {
+  width: 32vw;
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+.OSIS_Youtube .description h3 {
+  font-size: 33px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #12B3BE;
+}
+.OSIS_Youtube .description .ytb_link {
+  color: #000;
+  font-size: 33px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.official_web {
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #EDF9FF;
+}
+.official_web h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.official_web img {
+  position: relative;
+  width: 5.5vw;
+}
+
+.journal {
+  padding: 40px 0 50px 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+}
+.journal h3 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 12px;
+}
+.journal .jurnal-content {
+  display: grid;
+  grid-template-columns: 240px 240px 240px;
+  grid-template-rows: 310px 310px 310px;
+  gap: 15px 20px;
+  grid-template-areas: "jurnal-1 jurnal-2 jurnal-3" "jurnal-4 jurnal-5 jurnal-6" "jurnal-7 jurnal-8 jurnal-9";
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+.journal .jurnal-content .jurnal {
+  width: 240px;
+  height: 310px;
+}
+.journal .jurnal-content .jurnal .image {
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+.journal .jurnal-content .jurnal .image .card-img-top {
+  width: 100%;
+}
+.journal .jurnal-content .jurnal .card-body {
+  position: relative;
+  overflow: hidden;
+}
+.journal .jurnal-content .jurnal .card-body h3 {
+  font-size: 18px;
+  padding: 0;
+}
+.journal .jurnal-content .jurnal .card-body p {
+  font-size: 10px;
+  margin: 0px;
+}
+.journal .jurnal-content .jurnal .card-body a {
+  text-decoration: none;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+}
+.journal .jurnal-content .jurnal-1 {
+  grid-area: jurnal-1;
+}
+.journal .jurnal-content .jurnal-2 {
+  grid-area: jurnal-2;
+}
+.journal .jurnal-content .jurnal-3 {
+  grid-area: jurnal-3;
+}
+.journal .jurnal-content .jurnal-4 {
+  grid-area: jurnal-4;
+}
+.journal .jurnal-content .jurnal-5 {
+  grid-area: jurnal-5;
+}
+.journal .jurnal-content .jurnal-6 {
+  grid-area: jurnal-6;
+}
+.journal .jurnal-content .jurnal-7 {
+  grid-area: jurnal-7;
+}
+.journal .jurnal-content .jurnal-8 {
+  grid-area: jurnal-8;
+}
+.journal .jurnal-content .jurnal-9 {
+  grid-area: jurnal-9;
+}
+
+.footer_nav {
+  height: 280px;
+}
+.footer_nav .side_foot {
+  height: 225px;
+  background: #59909C;
+  padding: 20px 140px;
+  font-family: "Poppins";
+  display: flex;
+  align-items: start;
+}
+.footer_nav .side_foot .side1 {
+  width: 40%;
+}
+.footer_nav .side_foot .side1 .logo {
+  display: flex;
+  height: 67px;
+  width: 270px;
+  margin-bottom: 20px;
+}
+.footer_nav .side_foot .side1 .logo .logoImage {
+  display: flex;
+  width: 4.9vw;
+  height: 58px;
+}
+.footer_nav .side_foot .side1 .logo .logoImage img {
+  width: 100%;
+}
+.footer_nav .side_foot .side1 .logo .lettermarks {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4px;
+}
+.footer_nav .side_foot .side1 .logo .lettermarks .sup {
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  font-size: 16.8px;
+  line-height: 15px;
+  color: #dadada;
+}
+.footer_nav .side_foot .side1 .logo .lettermarks .sub {
+  font-size: 14.6px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #dadada;
+}
+.footer_nav .side_foot .side1 p {
+  color: #dadada;
+  font-size: 13px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.footer_nav .side_foot .side1 .osis-sosmed {
+  display: flex;
+}
+.footer_nav .side_foot .side1 .osis-sosmed i {
+  font-size: 16px;
+  margin-right: 20px;
+}
+.footer_nav .side_foot .side2 {
+  color: #dadada;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  width: 22%;
+}
+.footer_nav .side_foot .side2 h3 {
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+}
+.footer_nav .side_foot .side2 a {
+  color: #dadada;
+  font-size: 13px;
+  text-decoration: none;
+}
+.footer_nav .side_foot .side3 {
+  color: #dadada;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  width: 35%;
+}
+.footer_nav .side_foot .side3 h3 {
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+}
+.footer_nav .side_foot .side3 a {
+  color: #dadada;
+  font-size: 13px;
+  text-decoration: none;
+}
+.footer_nav .side_foot .side4 {
+  color: #dadada;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+  width: 25%;
+}
+.footer_nav .side_foot .side4 h3 {
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+}
+.footer_nav .side_foot .side4 p, .footer_nav .side_foot .side4 a {
+  color: #dadada;
+  font-size: 13px;
+  display: flex;
+  text-decoration: none;
+}
+.footer_nav .side_foot .side4 i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.footer_nav .copyright {
+  height: 55px;
+  background: #35596E;
+  color: #dadada;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0px 140px;
 }
 
 /*# sourceMappingURL=Main.css.map */

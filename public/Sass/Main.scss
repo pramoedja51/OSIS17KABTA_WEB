@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
 }
 
 ol, ul {
@@ -241,4 +243,1022 @@ textarea {
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+
+// Main Header
+.MainHeader {
+    height: 690px;
+
+    // Navigation Menu
+    .Pre-Login_Navigaion {
+        position: absolute;
+        z-index: 1;
+        font-family: "Poppins";
+        font-style: normal;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 94vw;
+        text-transform: capitalize;
+        height: 120px;
+        padding-left: 110px;
+        align-content: space-between;
+        flex-wrap: nowrap;
+
+
+        .logo {
+            display: flex;
+            height: 67px;
+            width: 260px;   
+
+            .logoImage {
+                display: flex;
+                width: 4.9vw;
+                height: 58px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .lettermarks {
+                text-transform: uppercase;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 4px;
+
+                .sup {
+                    font-weight: 800;
+                    letter-spacing: 1.4px;
+                    font-size: 16.8px;
+                    line-height: 15px;
+                }
+
+                .sub {
+                    font-size: 14.6px;
+                    font-weight: 500;
+                    letter-spacing: 0.6px;
+                }
+            }
+        }
+
+        .MainLink {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+            .NavLink {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 2px;
+                margin: 4px;
+                float: left;
+                position: relative;
+
+                &:hover > ul {
+                    display: block;
+                }
+
+                .NavLink_Link {
+                    color: #4B4F58;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 30px;
+                    margin-top: 13px;
+                    text-decoration: none;
+                    padding: 6px;
+                    display: block;
+
+                    .dropdown {
+                        display: inline;
+                        font-size: 8px;
+                    }
+
+                }
+                .DropdownMenu {
+                    display: none;
+                    position: absolute;
+                    top: 70px;
+                    left: 0;
+                    background: #fff;
+                    width: 200px;
+                    padding: 10px 20px;
+                    box-shadow: 0px 0px 10px 1px #dbdbdb;
+
+                    li {
+                        float: none;
+                    }
+
+                    a {
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .header_content {
+        background: #fafafa;
+        width: 100%;
+        height: 700px;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+            
+        .layer1 {
+            .background {
+                display: flex;
+                position: absolute;
+                right: 0px;
+                top: 138px;
+                width: 600px;
+                height: 480px;
+                background: linear-gradient(119.73deg, #12B3BE 10.46%, #2C4C9F 63.87%);
+                opacity: 0.7;
+                border-radius: 70px 0px 60px 70px;
+            }
+        }
+            
+        .layer2 { 
+            .circle1 {
+                display: flex;
+                width: 150px;
+                height: 150px;
+                border-radius: 100%;
+                position: absolute;
+                top: -34px;
+                left: -75px;
+                background: #FAFAFA;
+                box-shadow: 2px 4px 60px rgba(0, 0, 0, 0.25);
+            }
+                
+            .circle2 {
+                display: flex;
+                width: 485px;
+                height: 485px;
+                border-radius: 100%;
+                position: absolute;
+                top: 285px;
+                right: 60px;
+                background: #FAFAFA;
+                box-shadow: 7.1px 7.1px 14.3px rgba(0, 0, 0, 0.25);
+            }
+                
+            .circle3 {
+                display: flex;
+                width: 103px;
+                height: 103px;
+                border-radius: 100%;
+                position: absolute;
+                top: 235px;
+                right: 548px;
+                background: #FAFAFA;
+                box-shadow: 4.8px 4.8px 12.9px rgba(0, 0, 0, 0.25);
+            }
+                
+            .circle4 {
+                display: flex;
+                width: 103px;
+                height: 103px;
+                border-radius: 100%;
+                position: absolute;
+                top: 235px;
+                right: -50px;
+                z-index: 0;
+                background: #FAFAFA;
+                box-shadow: 4.8px 4.8px 12.9px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        .layer3{
+            .Ketos_Img {
+                width: 710px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+
+            .Description {
+                width: 550px;
+                position: absolute;
+                top: 185px;
+                left: 130px;
+                font-family: 'Poppins';
+
+                .welcome {
+                    color: #000000;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 25px;
+                }
+
+                .heading_text {
+                    font-size: 54.5px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    color: #000000;
+
+                }
+
+                .detail {
+                    border-top: 5px solid #12B3BE;
+                    padding-top: 18px;
+                    margin-top: 22px;
+                    width: 435px;
+
+                    .description {
+                        font-size: 12.9px;
+                        font-weight: 400;
+                        line-height: 23px;
+                        color: #7a7a7a;
+                    }
+
+                    .ReadMore {
+                        font-size: 14px;
+                        color: #000;
+                        text-decoration: none;
+                        padding: 8px 20px;
+                        border-radius: 20px;
+                        background: #FAFAFA;
+                        box-shadow: 0px 0px 15.5px rgba(0, 0, 0, 0.25);
+                    }
+                }
+            }
+        }
+
+        .SVG_HeaderBottom {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+}
+
+.OSIS_Information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    padding: 50px 0px;
+    font-family: 'Poppins';
+
+    .Osis_InformationHeader {
+        width: 660px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .HeaderInformation {
+            font-size: 28px;
+            color: #1E2329;
+        }
+
+        .DetailInformation {
+            text-align: center;
+            font-size: 13px;
+            color: #808080;
+        }
+    }
+
+    .Main_ContentInformation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: stretch;
+        margin-top: 20px;
+
+        .ContentInformation1 {
+            display: flex;
+            flex-direction: column;
+            width: 220px;
+        }
+
+        .ContentInformation2 {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+
+        .ContentInformation3 {
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+        }
+
+        .content {
+            margin: 15px;
+
+            .title {
+                font-size: 14px;
+                color: #1E2329;
+            }
+            
+            .detail {
+                font-size: 11px;
+                color: #808080;
+            }
+        }
+    }
+}
+
+.wave_line {
+    width: 4vw;
+    padding: 5px 0px;
+}
+
+.SekbidInformation {
+    height: 850px;
+    width: 100%;
+    background: #12B3BE;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+
+    .halftone {
+        position: absolute;
+        height: 100%;
+        left: -214px;
+        opacity: 18%;
+    }
+
+    .SVG_SekbidTop {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        transform: rotate(180deg);
+    }
+
+    .SekbidHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+        margin-top: 80px;
+
+        .header {
+            font-size: 30px;
+            color: #ffff;
+        }
+
+        .detail {
+            font-size: 11px;
+            color: #fff;
+            font-style: italic;
+        }
+
+        .wave_line {
+            width: 4vw;
+        }
+    }
+
+    .SekbidContent {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        position: absolute;
+        bottom: 60px;
+        justify-content: center;
+
+        .sekbid {
+            width: 240px;
+            height: 130px;
+            background: #fff;
+            margin: 6px 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 17px;
+            overflow: hidden;
+
+            .SekbidInfo {
+                position: relative;
+                overflow: hidden;
+
+                p {
+                    position: absolute;
+                    z-index: 1;
+                    top: 110px;
+                    left: 80px;
+                }
+
+                .Sekbid_img {
+                    opacity: 30%;
+                    width: 245px;
+                }
+            }
+        }
+
+    }
+}
+
+.ketos-message {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    .ketos {
+        display: flex;
+        position: absolute;
+        top: 0;
+        height: 360px;
+        align-items: center;
+
+        .Ketos_img {
+            width: 420px;
+        }
+        
+        .description {
+            display: flex;
+            flex-direction: column;
+            width: 470px;
+            font-family: "Poppins";
+
+            .title {
+                font-size: 26px;
+                font-weight: 600;
+            }
+
+            .wave_line {
+                width: 3vw;
+                padding: 15px 0;
+            }
+
+            .detail {
+                font-size: 14px;
+            }
+
+            .name {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .period {
+                font-size: 10px;
+            }
+        }
+    }
+    
+    .motivation {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 525px;
+        border-radius: 50% 50% 50% 50%/20% 20% 20% 20%;
+        background: #EDF9FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .content {
+            position: relative;
+            display: flex;
+            width: 60%;
+
+            .description {
+                width: 35vw;
+                
+                h3 {
+                    font-size: 21px;
+                    font-weight: 600;
+                    color: #12B3BE;
+                }
+                
+                p {
+                    font-size: 11px;
+                    width: 35vw;
+                }
+            }
+
+            .box {
+                position: relative;
+                margin-left: 30px;
+
+                .box1 {
+                    background: #fff;
+                    height: 335px;
+                    width: 270px;
+                    position: absolute;
+                    z-index: 2;
+                    bottom: -100px;
+                    border-radius: 5px;
+                }
+
+                .box2 {
+                    background: #12B3BE;
+                    height: 335px;
+                    width: 270px;
+                    position: absolute;
+                    bottom: -115px;
+                    right: -285px;
+                    z-index: 1;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+.events {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55px;
+
+        h3 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 14px;
+            font-style: italic;
+            color: #808080;
+        }
+    }
+
+    .wave_line {
+        width: 4vw;
+        margin: 30px 0 10px 0;
+    }
+
+    .events_list {
+        display: flex;
+        align-items: start;
+
+        .card {
+            width: 16rem;
+            margin: 10px;
+
+            .card-body {
+                text-align: center;
+
+                h3 {
+                    font-size: 14px;
+                }
+                
+                p {
+                    font-size: 10px;
+                    color: #808080;
+                    border-bottom: 1px solid #dadada;
+                    padding-bottom: 14px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .see-more {
+        font-size: 12px;
+        text-decoration: none;
+        color: #12B3BE;
+        height: 40px;
+        width: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background: #ffffff;
+        box-shadow: 0px 0px 15.5px rgba(0, 0, 0, 0.25);
+        margin: 20px 0;
+
+        i {
+            margin-left: 10px;
+        }
+    }
+}
+
+.ekskul {
+    height: 620px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddf4ff;
+
+    .SVG_EkskulTop {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        transform: rotate(180deg);
+    }
+
+    .img_osis {
+
+        .OSIS_bg {
+            width: 100%;
+            opacity: 15%;
+            position: absolute;
+            top: -50px;
+            left: 0;
+        }
+    }
+
+    .ekskul_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .description {
+            width: 28vw;
+            margin-right: 30px;
+            
+            h3 {
+                font-size: 30px;
+                font-weight: 700;
+            }
+            
+            p {
+                font-size: 13px;
+            }
+        }
+        
+        .ekskul_logo {
+            width: 40%;
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 150px 150px 150px;
+            gap: 10px 10px;
+            grid-template-areas:
+                "icon-1 icon-2 icon-3"
+                "icon-4 icon-5 icon-6"
+                "icon-7 icon-8 icon-9";
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+            margin-left: 65px;
+            
+            .ekskul_icon {
+                margin: 10px;
+            }
+
+            .icon-1 {
+                grid-area: icon-1;
+                width: 135px;
+            }
+            
+            .icon-2 {
+                grid-area: icon-2;
+                width: 110px;
+            }
+            
+            .icon-3 {
+                grid-area: icon-3;
+                width: 130px;
+            }
+            
+            .icon-4 {
+                grid-area: icon-4;
+                width: 135px;
+            }
+            
+            .icon-5 {
+                grid-area: icon-5;
+                width: 115px;
+            }
+            
+            .icon-6 {
+                grid-area: icon-6;
+                width: 165px;
+            }
+            
+            .icon-7 {
+                grid-area: icon-7;
+                width: 135px;
+            }
+            
+            .icon-8 {
+                grid-area: icon-8;
+                width: 115px;
+            }
+            
+            .icon-9 {
+                grid-area: icon-9;
+                width: 135px;
+            }
+        }
+    }
+}
+
+.OSIS_Youtube {
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .description {
+        width: 32vw;
+        margin-right: 5vw;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-size: 33px;
+            font-weight: 600;
+            padding-bottom: 25px;
+            margin-bottom: 16px;
+            border-bottom: 3px solid #12B3BE;
+        }
+
+        .ytb_link {
+            color: #000;
+            font-size: 33px;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.official_web {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #EDF9FF;
+
+    h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    img {
+        position: relative;
+        width: 5.5vw;
+    }
+}
+
+.journal {
+    padding: 40px 0 50px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        padding: 12px;
+    }
+
+    .jurnal-content {
+        display: grid;
+        grid-template-columns: 240px 240px 240px;
+        grid-template-rows: 310px 310px 310px;
+        gap: 15px 20px;
+        grid-template-areas:
+            "jurnal-1 jurnal-2 jurnal-3"
+            "jurnal-4 jurnal-5 jurnal-6"
+            "jurnal-7 jurnal-8 jurnal-9";
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        
+        .jurnal {
+            width: 240px;
+            height: 310px;
+
+            .image {
+                height: 150px;
+                position: relative;
+                overflow: hidden;
+
+                .card-img-top {
+                    width: 100%;
+                }
+            }
+
+            .card-body {
+                position: relative;
+                overflow: hidden;
+
+                h3 {
+                    font-size: 18px;
+                    padding: 0;
+                }
+
+                p {
+                    font-size: 10px;
+                    margin: 0px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 11px;
+                    position: absolute;
+                    bottom: 10px;
+                }
+            }
+        }
+
+        .jurnal-1 {
+            grid-area: jurnal-1;
+        }
+        
+        .jurnal-2 {
+            grid-area: jurnal-2;
+        }
+        
+        .jurnal-3 {
+            grid-area: jurnal-3;
+        }
+        
+        .jurnal-4 {
+            grid-area: jurnal-4;
+        }
+        
+        .jurnal-5 {
+            grid-area: jurnal-5;
+        }
+        
+        .jurnal-6 {
+            grid-area: jurnal-6;
+        }
+        
+        .jurnal-7 {
+            grid-area: jurnal-7;
+        }
+        
+        .jurnal-8 {
+            grid-area: jurnal-8;
+        }
+        
+        .jurnal-9 {
+            grid-area: jurnal-9;
+        }
+    }
+}
+
+.footer_nav {
+    height: 280px;
+
+    .side_foot {
+        height: 225px;
+        background: #59909C;
+        padding: 20px 140px;
+        font-family: 'Poppins';
+        display: flex;
+        align-items: start;
+
+        .side1 {
+            width: 40%;
+
+            .logo {
+                display: flex;
+                height: 67px;
+                width: 270px;
+                margin-bottom: 20px;  
+    
+                .logoImage {
+                    display: flex;
+                    width: 4.9vw;
+                    height: 58px;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+    
+                .lettermarks {
+                    text-transform: uppercase;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-left: 4px;
+    
+                    .sup {
+                        font-weight: 800;
+                        letter-spacing: 1.4px;
+                        font-size: 16.8px;
+                        line-height: 15px;
+                        color: #dadada;
+                    }
+    
+                    .sub {
+                        font-size: 14.6px;
+                        font-weight: 500;
+                        letter-spacing: 0.6px;
+                        color: #dadada;
+                    }
+                }
+            }
+
+            p {
+                color: #dadada;
+                font-size: 13px;
+                width: 80%;
+                margin-bottom: 30px;
+            }
+
+            .osis-sosmed {
+                display: flex;
+
+                i {
+                    font-size: 16px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .side2 {
+            color: #dadada;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 20px;
+            width: 22%;
+
+            h3 {
+                font-size: 20px;
+                margin: 10px 0 20px 0;;
+            }
+
+            a {
+                color: #dadada;
+                font-size: 13px;
+                text-decoration: none;
+            }
+        }
+
+        .side3 {
+            color: #dadada;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 20px;
+            width: 35%;
+
+            h3 {
+                font-size: 20px;
+                margin: 10px 0 20px 0;;
+            }
+
+            a {
+                color: #dadada;
+                font-size: 13px;
+                text-decoration: none;
+            }
+        }
+
+        .side4 {
+            color: #dadada;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 20px;
+            width: 25%;
+
+            h3 {
+                font-size: 20px;
+                margin: 10px 0 20px 0;;
+            }
+
+            p,a {
+                color: #dadada;
+                font-size: 13px;
+                display: flex;
+                text-decoration: none;
+            }
+
+            i {
+                font-size: 16px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .copyright {
+        height: 55px;
+        background: #35596E;
+        color: #dadada;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        padding: 0px 140px;
+    }
 }
